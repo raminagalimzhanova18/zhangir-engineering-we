@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- htmlaunch:enhanced:v2 -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22hsl(48%2C72%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22hsl(78%2C72%25%2C48%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22url(%23g)%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2244%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2Csans-serif%22%20font-size%3D%2236%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EZ%3C%2Ftext%3E%3C%2Fsvg%3E">
+<meta name="theme-color" content="#7b6614">
+<meta name="description" content="Engineering &amp; Physics — Pre-University Work Experience | deployed with HTMLaunch">
+<link rel="canonical" href="https://raminagalimzhanova18.github.io/zhangir-engineering-we/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Engineering &amp; Physics — Pre-University Work Experience">
+<meta property="og:title" content="Engineering &amp; Physics — Pre-University Work Experience">
+<meta property="og:description" content="Engineering &amp; Physics — Pre-University Work Experience | deployed with HTMLaunch">
+<meta property="og:url" content="https://raminagalimzhanova18.github.io/zhangir-engineering-we/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://avatars.githubusercontent.com/raminagalimzhanova18?s=460">
+<meta property="og:image:alt" content="Engineering &amp; Physics — Pre-University Work Experience">
+<meta property="og:image:width" content="460">
+<meta property="og:image:height" content="460">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Engineering &amp; Physics — Pre-University Work Experience">
+<meta name="twitter:description" content="Engineering &amp; Physics — Pre-University Work Experience | deployed with HTMLaunch">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/raminagalimzhanova18?s=460">
+<meta name="twitter:image:alt" content="Engineering &amp; Physics — Pre-University Work Experience">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engineering & Physics — Pre-University Work Experience</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0e17;
+    --surface: #111827;
+    --surface2: #1a2235;
+    --border: #1e2d45;
+    --accent: #00d4ff;
+    --accent2: #ff6b35;
+    --accent3: #7fffb2;
+    --text: #e8f0fe;
+    --muted: #6b7fa3;
+    --open: #7fffb2;
+    --closed: #ff4d6d;
+    --rolling: #ffd166;
+    --unknown: #6b7fa3;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Grid background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Header */
+  header {
+    padding: 56px 0 40px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::after {
+    content: 'ENG/PHYS';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Syne', sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+    color: rgba(0,212,255,0.04);
+    letter-spacing: -4px;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid rgba(0,212,255,0.3);
+    padding: 4px 10px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    background: rgba(0,212,255,0.06);
+  }
+
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+  }
+
+  h1 span { color: var(--accent); }
+
+  .subtitle {
+    color: var(--muted);
+    font-size: 13px;
+    max-width: 520px;
+    line-height: 1.7;
+  }
+
+  /* Filter bar */
+  .filter-bar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    align-items: center;
+  }
+
+  .filter-label {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-right: 4px;
+  }
+
+  .filter-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+  }
+
+  .filter-btn:hover, .filter-btn.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(0,212,255,0.07);
+  }
+
+  /* Stats row */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-bottom: 36px;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 16px 20px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--accent);
+  }
+
+  .stat-card.s2::before { background: var(--accent2); }
+  .stat-card.s3::before { background: var(--accent3); }
+  .stat-card.s4::before { background: var(--rolling); }
+
+  .stat-num {
+    font-family: 'Syne', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* Table */
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--surface);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+  }
+
+  thead {
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+  }
+
+  th {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 12px 16px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+
+  tbody tr:last-child { border-bottom: none; }
+
+  tbody tr:hover { background: rgba(0,212,255,0.04); }
+
+  td {
+    padding: 14px 16px;
+    vertical-align: middle;
+    line-height: 1.4;
+  }
+
+  .company-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .company-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    flex-shrink: 0;
+    letter-spacing: -0.5px;
+  }
+
+  .company-name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--text);
+  }
+
+  .company-type {
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+
+  /* Status badges */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+
+  .badge::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+
+  .badge-open {
+    color: var(--open);
+    background: rgba(127,255,178,0.1);
+    border: 1px solid rgba(127,255,178,0.25);
+  }
+
+  .badge-closed {
+    color: var(--closed);
+    background: rgba(255,77,109,0.1);
+    border: 1px solid rgba(255,77,109,0.25);
+  }
+
+  .badge-rolling {
+    color: var(--rolling);
+    background: rgba(255,209,102,0.1);
+    border: 1px solid rgba(255,209,102,0.25);
+  }
+
+  .badge-unknown {
+    color: var(--unknown);
+    background: rgba(107,127,163,0.1);
+    border: 1px solid rgba(107,127,163,0.2);
+  }
+
+  /* Category tags */
+  .cat {
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 2px;
+    margin: 1px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .cat-aero { background: rgba(0,212,255,0.12); color: #00d4ff; }
+  .cat-mech { background: rgba(255,107,53,0.12); color: #ff6b35; }
+  .cat-phys { background: rgba(127,255,178,0.12); color: #7fffb2; }
+  .cat-civil { background: rgba(255,180,0,0.12); color: #ffb400; }
+  .cat-elec { background: rgba(180,100,255,0.12); color: #b464ff; }
+  .cat-energy { background: rgba(0,255,180,0.12); color: #00ffb4; }
+  .cat-nuclear { background: rgba(255,80,80,0.12); color: #ff5050; }
+  .cat-quantum { background: rgba(100,180,255,0.12); color: #64b4ff; }
+  .cat-univ { background: rgba(180,180,180,0.1); color: #aaa; }
+
+  /* Format */
+  .fmt {
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+
+  .fmt-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    background: rgba(0,212,255,0.1);
+    text-align: center;
+    line-height: 16px;
+    margin-right: 3px;
+    font-size: 9px;
+  }
+
+  .paid-tag {
+    font-size: 10px;
+    color: var(--accent3);
+    font-weight: 500;
+    border: 1px solid rgba(127,255,178,0.3);
+    padding: 2px 6px;
+    border-radius: 2px;
+    background: rgba(127,255,178,0.06);
+  }
+
+  .link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid rgba(0,212,255,0.25);
+    padding: 4px 10px;
+    border-radius: 2px;
+    transition: all 0.15s;
+    white-space: nowrap;
+    background: rgba(0,212,255,0.05);
+  }
+
+  .link-btn:hover {
+    background: rgba(0,212,255,0.12);
+    border-color: rgba(0,212,255,0.5);
+  }
+
+  /* Deadline cell */
+  .deadline {
+    font-size: 12px;
+    color: var(--text);
+  }
+
+  .deadline-note {
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 56px;
+    padding: 28px 0;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: gap;
+    gap: 12px;
+  }
+
+  .footer-note {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.7;
+    max-width: 500px;
+  }
+
+  .legend {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .legend-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  tbody tr {
+    animation: fadeIn 0.3s ease both;
+  }
+
+  tbody tr:nth-child(1) { animation-delay: 0.02s; }
+  tbody tr:nth-child(2) { animation-delay: 0.04s; }
+  tbody tr:nth-child(3) { animation-delay: 0.06s; }
+  tbody tr:nth-child(4) { animation-delay: 0.08s; }
+  tbody tr:nth-child(5) { animation-delay: 0.10s; }
+  tbody tr:nth-child(6) { animation-delay: 0.12s; }
+  tbody tr:nth-child(7) { animation-delay: 0.14s; }
+  tbody tr:nth-child(8) { animation-delay: 0.16s; }
+  tbody tr:nth-child(9) { animation-delay: 0.18s; }
+  tbody tr:nth-child(10) { animation-delay: 0.20s; }
+  tbody tr:nth-child(11) { animation-delay: 0.22s; }
+  tbody tr:nth-child(12) { animation-delay: 0.24s; }
+  tbody tr:nth-child(13) { animation-delay: 0.26s; }
+  tbody tr:nth-child(14) { animation-delay: 0.28s; }
+  tbody tr:nth-child(15) { animation-delay: 0.30s; }
+
+  /* Hidden rows */
+  tr.hidden { display: none; }
+
+  @media (max-width: 768px) {
+    th:nth-child(4), td:nth-child(4) { display: none; }
+    th:nth-child(5), td:nth-child(5) { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="tag">Pre-University · Engineering &amp; Physics · UK 2026</div>
+    <h1>Work Experience<br><span>Tracker</span></h1>
+    <p class="subtitle">Curated programmes for Year 12 &amp; 13 students pursuing engineering or physics at university. Includes company placements, university summer schools &amp; research programmes.</p>
+  </header>
+
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-num" id="count-total">20</div>
+      <div class="stat-label">Programmes</div>
+    </div>
+    <div class="stat-card s2">
+      <div class="stat-num" id="count-open">12</div>
+      <div class="stat-label">Open / Rolling</div>
+    </div>
+    <div class="stat-card s3">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Paid</div>
+    </div>
+    <div class="stat-card s4">
+      <div class="stat-num">Jul–Aug</div>
+      <div class="stat-label">Peak Season</div>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <span class="filter-label">Filter:</span>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="aero">Aerospace</button>
+    <button class="filter-btn" data-filter="phys">Physics</button>
+    <button class="filter-btn" data-filter="mech">Mechanical</button>
+    <button class="filter-btn" data-filter="elec">Electrical</button>
+    <button class="filter-btn" data-filter="energy">Energy</button>
+    <button class="filter-btn" data-filter="univ">University</button>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Organisation</th>
+          <th>Programme</th>
+          <th>Status</th>
+          <th>Format</th>
+          <th>Deadline / Dates</th>
+          <th>Apply</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+
+        <!-- BAE Systems -->
+        <tr data-cats="aero mech">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,80,160,0.3);color:#4da6ff;">BAE</div>
+              <div>
+                <div class="company-name">BAE Systems</div>
+                <div class="company-type">Defence &amp; Aerospace</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Engineering Taster Week</div>
+            <div style="margin-top:4px;"><span class="cat cat-aero">Aerospace</span><span class="cat cat-mech">Mechanical</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">July 2026</div>
+            <div class="deadline-note">Aged 16–18 · 1 week</div>
+          </td>
+          <td><a class="link-btn" href="https://www.baesystems.com/en/careers/careers-in-the-uk/students-and-graduates" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- Rolls-Royce -->
+        <tr data-cats="mech aero energy">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(20,20,40,0.6);color:#c8a96e;">RR</div>
+              <div>
+                <div class="company-name">Rolls-Royce</div>
+                <div class="company-type">Aerospace &amp; Power</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Work Experience Week</div>
+            <div style="margin-top:4px;"><span class="cat cat-aero">Aerospace</span><span class="cat cat-mech">Mechanical</span><span class="cat cat-energy">Power</span></div>
+          </td>
+          <td><span class="badge badge-rolling">Rolling</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">Year-round</div>
+            <div class="deadline-note">Derby &amp; Bristol sites</div>
+          </td>
+          <td><a class="link-btn" href="https://careers.rolls-royce.com/en/students-and-graduates/united-kingdom/work-experience" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- Smallpeice Trust -->
+        <tr data-cats="mech aero elec">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(255,107,53,0.2);color:#ff6b35;">SP</div>
+              <div>
+                <div class="company-name">Smallpeice Trust</div>
+                <div class="company-type">Engineering Charity</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Residential Engineering Courses</div>
+            <div style="margin-top:4px;"><span class="cat cat-mech">Mechanical</span><span class="cat cat-aero">Aerospace</span><span class="cat cat-elec">Electrical</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏫</span>Residential</span></td>
+          <td>
+            <div class="deadline">Various 2026</div>
+            <div class="deadline-note">Ages 12–18 · 4-day courses</div>
+          </td>
+          <td><a class="link-btn" href="https://www.smallpeicetrust.org.uk" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- Springpod / Siemens -->
+        <tr data-cats="elec mech">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,148,69,0.2);color:#00c86e;">SIE</div>
+              <div>
+                <div class="company-name">Siemens × Springpod</div>
+                <div class="company-type">Technology &amp; Engineering</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Virtual Engineering Experience</div>
+            <div style="margin-top:4px;"><span class="cat cat-elec">Electrical</span><span class="cat cat-mech">Mechanical</span></div>
+          </td>
+          <td><span class="badge badge-rolling">Rolling</span></td>
+          <td><span class="fmt"><span class="fmt-icon">💻</span>Virtual</span></td>
+          <td>
+            <div class="deadline">Year-round</div>
+            <div class="deadline-note">Ages 13+ · 2 weeks</div>
+          </td>
+          <td><a class="link-btn" href="https://www.springpod.com" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- Oxford Physics -->
+        <tr data-cats="phys">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,48,120,0.4);color:#6699ff;">OX</div>
+              <div>
+                <div class="company-name">University of Oxford</div>
+                <div class="company-type">Dept. of Physics</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Year 12 Physics Summer School</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span></div>
+          </td>
+          <td><span class="badge badge-unknown">TBC 2026</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">Summer 2026</div>
+            <div class="deadline-note">Local students · Particle/Laser/Climate physics</div>
+          </td>
+          <td><a class="link-btn" href="https://outreach.phy.cam.ac.uk/wex" target="_blank">Info →</a></td>
+        </tr>
+
+        <!-- Oxford UNIQ -->
+        <tr data-cats="phys univ">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,48,120,0.4);color:#6699ff;">OX</div>
+              <div>
+                <div class="company-name">University of Oxford</div>
+                <div class="company-type">UNIQ Programme</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>UNIQ Summer School (Physics/Engineering)</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-univ">University</span></div>
+          </td>
+          <td><span class="badge badge-closed">Closed 2026</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏫</span>Residential</span></td>
+          <td>
+            <div class="deadline">Apply Jan 2027</div>
+            <div class="deadline-note">State school · UK-wide</div>
+          </td>
+          <td><a class="link-btn" href="https://www.ox.ac.uk/admissions/undergraduate/increasing-access/uniq" target="_blank">Info →</a></td>
+        </tr>
+
+        <!-- Oxford Quantum -->
+        <tr data-cats="phys">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,48,120,0.4);color:#64b4ff;">OX</div>
+              <div>
+                <div class="company-name">Oxford / NQCC</div>
+                <div class="company-type">Quantum Computing Centre</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Quantum Experience Summer School</div>
+            <div style="margin-top:4px;"><span class="cat cat-quantum">Quantum</span><span class="cat cat-phys">Physics</span></div>
+          </td>
+          <td><span class="badge badge-unknown">TBC 2026</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">Summer 2026</div>
+            <div class="deadline-note">Lab + quantum tech company visits</div>
+          </td>
+          <td><a class="link-btn" href="https://www.physics.ox.ac.uk/engage/schools/secondary-schools/summer-schools-and-work-experience" target="_blank">Info →</a></td>
+        </tr>
+
+        <!-- Imperial College -->
+        <tr data-cats="mech elec phys univ">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,50,120,0.3);color:#4488ff;">IC</div>
+              <div>
+                <div class="company-name">Imperial College London</div>
+                <div class="company-type">Engineering / Physics</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Year 12 Work Experience Programme</div>
+            <div style="margin-top:4px;"><span class="cat cat-mech">Mechanical</span><span class="cat cat-elec">Electrical</span><span class="cat cat-phys">Physics</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">Apply Spring 2026</div>
+            <div class="deadline-note">State school only · Widening access</div>
+          </td>
+          <td><a class="link-btn" href="https://www.imperial.ac.uk/be-inspired/schools-outreach/secondary-schools/summer-schools/work-experience/" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- Nottingham Physics -->
+        <tr data-cats="phys univ">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,80,0,0.3);color:#66cc66;">UoN</div>
+              <div>
+                <div class="company-name">Univ. of Nottingham</div>
+                <div class="company-type">School of Physics</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Year 12 Physics Work Experience</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-quantum">Research</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">6–10 July 2026</div>
+            <div class="deadline-note">Astronomy, Particle Theory, MRI, Ultracold Atoms</div>
+          </td>
+          <td><a class="link-btn" href="https://www.nottingham.ac.uk/physics/outreach/year-12-work-experience-programme-online-application.aspx" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- University of York -->
+        <tr data-cats="phys mech univ">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(120,0,80,0.3);color:#dd66aa;">UoY</div>
+              <div>
+                <div class="company-name">University of York</div>
+                <div class="company-type">Physics, Eng &amp; Technology</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Hybrid Physics &amp; Engineering Work Experience</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-mech">Engineering</span></div>
+          </td>
+          <td><span class="badge badge-closed">Closed 2026</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🔀</span>Hybrid</span></td>
+          <td>
+            <div class="deadline">20–24 July 2026</div>
+            <div class="deadline-note">Applications closed Jan 2026</div>
+          </td>
+          <td><a class="link-btn" href="https://www.york.ac.uk/physics-engineering-technology/outreach/sixthform/work-experience/" target="_blank">Info →</a></td>
+        </tr>
+
+        <!-- York STEM Learning -->
+        <tr data-cats="phys mech univ">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(120,0,80,0.3);color:#dd66aa;">UoY</div>
+              <div>
+                <div class="company-name">University of York</div>
+                <div class="company-type">STEM Learning Placements</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Research Placements (Nuffield-style)</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-mech">Engineering</span></div>
+          </td>
+          <td><span class="badge badge-closed">Closed 2026</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">Summer Yr12→13</div>
+            <div class="deadline-note">Apply via STEM Learning</div>
+          </td>
+          <td><a class="link-btn" href="https://www.stem.org.uk" target="_blank">Info →</a></td>
+        </tr>
+
+        <!-- Nuffield Research Placements -->
+        <tr data-cats="phys mech elec energy">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(200,120,0,0.2);color:#ffaa44;">NRP</div>
+              <div>
+                <div class="company-name">Nuffield Foundation</div>
+                <div class="company-type">Research Placements &amp; Experience</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>STEM Research Placement (2-week) / Exploration (5-day)</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-mech">Engineering</span><span class="cat cat-elec">STEM</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">Apply Jan–Mar 2026</div>
+            <div class="deadline-note">Host org placement · CREST Award eligible</div>
+          </td>
+          <td><a class="link-btn" href="https://www.stem.org.uk/nuffield-research-placements" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- STFC -->
+        <tr data-cats="phys">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,80,160,0.3);color:#66aaff;">STFC</div>
+              <div>
+                <div class="company-name">STFC / UKRI</div>
+                <div class="company-type">Science &amp; Technology Facilities Council</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Work Experience Programme</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-quantum">Research</span></div>
+          </td>
+          <td><span class="badge badge-rolling">Rolling</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">Year-round</div>
+            <div class="deadline-note">RAL, Daresbury &amp; other labs</div>
+          </td>
+          <td><a class="link-btn" href="https://www.ukri.org/councils/stfc/careers-and-training/" target="_blank">Info →</a></td>
+        </tr>
+
+        <!-- BP -->
+        <tr data-cats="energy mech">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,100,0,0.3);color:#00cc44;">bp</div>
+              <div>
+                <div class="company-name">bp</div>
+                <div class="company-type">Energy &amp; Engineering</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Discovery Week</div>
+            <div style="margin-top:4px;"><span class="cat cat-energy">Energy</span><span class="cat cat-mech">Engineering</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏢</span>In-person</span></td>
+          <td>
+            <div class="deadline">Summer 2026</div>
+            <div class="deadline-note">Female / Digital &amp; Tech focused streams</div>
+          </td>
+          <td><a class="link-btn" href="https://www.bp.com/en/global/corporate/careers/students-and-graduates.html" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- EDF Energy -->
+        <tr data-cats="nuclear energy elec">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,80,160,0.3);color:#44aaff;">EDF</div>
+              <div>
+                <div class="company-name">EDF Energy</div>
+                <div class="company-type">Nuclear &amp; Energy</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Pre-University Engineering Insight</div>
+            <div style="margin-top:4px;"><span class="cat cat-nuclear">Nuclear</span><span class="cat cat-energy">Energy</span><span class="cat cat-elec">Electrical</span></div>
+          </td>
+          <td><span class="badge badge-rolling">Rolling</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🔀</span>Hybrid</span></td>
+          <td>
+            <div class="deadline">Year-round</div>
+            <div class="deadline-note">Nuclear power station visits available</div>
+          </td>
+          <td><a class="link-btn" href="https://www.edfenergy.com/careers/graduates-apprentices" target="_blank">Info →</a></td>
+        </tr>
+
+        <!-- In2STEM -->
+        <tr data-cats="phys mech elec">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,200,120,0.15);color:#00c878;">I2S</div>
+              <div>
+                <div class="company-name">In2STEM</div>
+                <div class="company-type">Widening Access STEM</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Free STEM Placement Programme (UCL partner)</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-mech">Engineering</span><span class="cat cat-elec">STEM</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🔀</span>Hybrid</span></td>
+          <td>
+            <div class="deadline">Jul–Aug 2026</div>
+            <div class="deadline-note">Year 12 · Low socioeconomic background · Free · CREST eligible</div>
+          </td>
+          <td><a class="link-btn" href="https://in2scienceuk.org" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- Airbus -->
+        <tr data-cats="aero mech">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(0,60,140,0.35);color:#5599ee;">AIR</div>
+              <div>
+                <div class="company-name">Airbus</div>
+                <div class="company-type">Aerospace</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Aerospace Work Experience (via Springpod)</div>
+            <div style="margin-top:4px;"><span class="cat cat-aero">Aerospace</span><span class="cat cat-mech">Mechanical</span></div>
+          </td>
+          <td><span class="badge badge-rolling">Rolling</span></td>
+          <td><span class="fmt"><span class="fmt-icon">💻</span>Virtual</span></td>
+          <td>
+            <div class="deadline">Year-round</div>
+            <div class="deadline-note">Via Springpod platform</div>
+          </td>
+          <td><a class="link-btn" href="https://www.springpod.com" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- Isaac Physics -->
+        <tr data-cats="phys">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(160,80,0,0.3);color:#ffaa44;">ISC</div>
+              <div>
+                <div class="company-name">Isaac Physics (Cambridge)</div>
+                <div class="company-type">Problem-solving Platform</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Student Mentoring &amp; Taster Days</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-quantum">Research</span></div>
+          </td>
+          <td><span class="badge badge-rolling">Rolling</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🔀</span>Hybrid</span></td>
+          <td>
+            <div class="deadline">Year-round</div>
+            <div class="deadline-note">Contact contactus@isaacphysics.org</div>
+          </td>
+          <td><a class="link-btn" href="https://isaacphysics.org" target="_blank">Info →</a></td>
+        </tr>
+
+        <!-- Royal Holloway -->
+        <tr data-cats="phys univ">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(100,0,100,0.3);color:#cc66cc;">RH</div>
+              <div>
+                <div class="company-name">Royal Holloway</div>
+                <div class="company-type">University of London</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>Summer Sciences University (Year 12)</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-univ">University</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏫</span>Residential</span></td>
+          <td>
+            <div class="deadline">Summer 2026</div>
+            <div class="deadline-note">Year 12 · Physics &amp; sciences</div>
+          </td>
+          <td><a class="link-btn" href="https://www.royalholloway.ac.uk/studying-here/schools-and-colleges/summer-schools/" target="_blank">Apply →</a></td>
+        </tr>
+
+        <!-- Sutton Trust -->
+        <tr data-cats="phys mech elec univ">
+          <td>
+            <div class="company-cell">
+              <div class="company-icon" style="background:rgba(180,60,0,0.3);color:#ff8844;">ST</div>
+              <div>
+                <div class="company-name">Sutton Trust</div>
+                <div class="company-type">Widening Access</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div>UK Summer Schools — STEM subjects</div>
+            <div style="margin-top:4px;"><span class="cat cat-phys">Physics</span><span class="cat cat-mech">Engineering</span><span class="cat cat-univ">University</span></div>
+          </td>
+          <td><span class="badge badge-open">Open</span></td>
+          <td><span class="fmt"><span class="fmt-icon">🏫</span>Residential</span></td>
+          <td>
+            <div class="deadline">Apply Jan–Feb 2027</div>
+            <div class="deadline-note">State school · All costs covered incl. accommodation</div>
+          </td>
+          <td><a class="link-btn" href="https://www.suttontrust.com/our-programmes/summer-schools/" target="_blank">Apply →</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    <div class="footer-note">
+      Deadlines and availability change frequently — always verify directly with the programme provider before applying. Most applications open January–March for summer programmes. Paid = <span style="color:var(--accent3)">★</span> marked entries; all others unpaid or free to attend.
+    </div>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:var(--open)"></div>Open</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rolling)"></div>Rolling</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--closed)"></div>Closed</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--unknown)"></div>TBC</div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  const btns = document.querySelectorAll('.filter-btn');
+  const rows = document.querySelectorAll('#table-body tr');
+
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+
+      let visible = 0;
+      rows.forEach(row => {
+        const cats = row.dataset.cats || '';
+        if (filter === 'all' || cats.includes(filter)) {
+          row.classList.remove('hidden');
+          visible++;
+        } else {
+          row.classList.add('hidden');
+        }
+      });
+
+      document.getElementById('count-total').textContent = visible;
+
+      let openCount = 0;
+      rows.forEach(row => {
+        if (!row.classList.contains('hidden')) {
+          const badge = row.querySelector('.badge');
+          if (badge && (badge.classList.contains('badge-open') || badge.classList.contains('badge-rolling'))) {
+            openCount++;
+          }
+        }
+      });
+      document.getElementById('count-open').textContent = openCount;
+    });
+  });
+</script>
+</body>
+</html>
